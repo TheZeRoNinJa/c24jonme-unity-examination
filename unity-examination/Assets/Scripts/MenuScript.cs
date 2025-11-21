@@ -8,9 +8,19 @@ public class MenuScript : MonoBehaviour
         SceneManager.LoadScene("MainScene");
     }
 
+    public void LoreButton()
+    {
+        SceneManager.LoadScene("LoreScene");
+    }
+
     public void QuitButton()
     {
         Application.Quit();
         Debug.Log("quit");
+    }
+
+    public void BackButton()
+    {
+        SceneManager.LoadScene("MenuScene");
     }
 }
